@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="macOS용 다중 화면 미디어 플레이어. 영상·이미지·텍스트를 레이어로 구성하고 원하는 출력으로 보내세요.">
+  <meta name="release-repository" content="safethecode/xledplayer-downloads">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="xLEDPlayer — macOS 미디어 플레이어">
+  <meta property="og:description" content="여러 화면의 영상을 한곳에서. macOS용 xLEDPlayer를 다운로드하세요.">
+  <title>xLEDPlayer — macOS 미디어 플레이어</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#download">다운로드로 바로 가기</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="xLEDPlayer 홈">xLEDPlayer</a>
+      <nav aria-label="주 메뉴">
+        <a class="header-link" href="#features">기능</a>
+        <a class="header-link" href="#install">설치</a>
+        <a class="button secondary" data-release-archive href="https://github.com/safethecode/xledplayer-downloads/releases">릴리스 보기 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <div class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">macOS 미디어 플레이어</p>
+      <h1 id="page-title">여러 화면의 영상을 한곳에서.</h1>
+      <p class="hero-description">영상·이미지·텍스트를 레이어로 구성하고,<br class="desktop-break"> 큐를 준비해 원하는 출력으로 보내세요.</p>
+      <ul class="hero-meta" aria-label="지원 환경">
+        <li>macOS <strong>15 이상</strong></li>
+        <li><strong>Apple Silicon</strong></li>
+        <li>기본 <strong>다크모드</strong></li>
+      </ul>
+    </section>
+    <main class="download-layout">
+      <aside class="download-panel" id="download" aria-labelledby="download-title">
+        <div class="download-sticky">
+          <div class="section-heading"><h2 id="download-title">다운로드</h2><span class="badge" id="channel">프리뷰</span></div>
+          <p class="release-version" id="version">v0.1.0-preview.1</p>
+          <p class="muted release-size" id="release-detail">Apple Silicon · DMG 3.6 MB</p>
+          <a class="button primary download-button" id="download-dmg" href="https://github.com/safethecode/xledplayer-downloads/releases/download/v0.1.0-preview.1/xLEDPlayer-0.1.0-preview.1-macOS-arm64.dmg">macOS용 다운로드 <span aria-hidden="true">↓</span></a>
+          <p class="status" id="release-status">macOS 15 이상에서 사용할 수 있어요.</p>
+          <div class="alternate-downloads" id="alternate-downloads">
+            <a class="text-link" id="download-zip" href="https://github.com/safethecode/xledplayer-downloads/releases/download/v0.1.0-preview.1/xLEDPlayer-0.1.0-preview.1-macOS-arm64.zip">ZIP 파일</a>
+            <a class="text-link" id="checksums" href="https://github.com/safethecode/xledplayer-downloads/releases/download/v0.1.0-preview.1/SHA256SUMS.txt">체크섬</a>
+          </div>
+          <p class="preview-note" id="preview-note" >Apple 공증 전의 프리뷰 빌드예요. macOS에서 추가 실행 확인이 필요할 수 있어요. <a href="#install">설치 안내</a></p>
+          <a class="text-link release-history" href="https://github.com/safethecode/xledplayer-downloads/releases/tag/v0.1.0-preview.1">릴리스 노트 보기 <span aria-hidden="true">↗</span></a>
+        </div>
+      </aside>
+      <div class="content">
+        <section id="features" aria-labelledby="features-title">
+          <div class="section-heading"><h2 id="features-title">현재 지원하는 기능</h2></div>
+          <div class="feature-list">
+            <article class="feature"><h3>독립적인 레이어 재생</h3><p>영상 위에 이미지와 텍스트를 배치하고, 레이어마다 재생·일시정지·숨김·음소거를 제어해요.</p></article>
+            <article class="feature"><h3><span class="signal prv">PRV</span> 준비하고 <span class="signal pgm">PGM</span> 내보내기</h3><p>미리보기에서 다음 콘텐츠를 확인하고, 명시적으로 실행할 때 출력에 반영해요.</p></article>
+            <article class="feature"><h3>화면별 출력 구성</h3><p>스크린과 출력 영역을 드래그해 배치하고, 레이어를 개별 화면이나 여러 화면에 연결해요.</p></article>
+            <article class="feature"><h3>큐와 플레이리스트</h3><p>미디어와 제어 명령을 큐로 묶고, 플레이리스트·스마트 폴더·스냅샷으로 공연을 준비해요.</p></article>
+            <article class="feature"><h3>전환과 합성</h3><p>37종 전환과 30종 합성 모드, 알파·루마·화이트 매트로 레이어를 조합해요.</p></article>
+            <article class="feature"><h3>반복 재생과 프로젝트</h3><p>Soft Loop와 반복 제한을 설정하고, 프로젝트를 탭으로 열어 편집·저장·복구해요.</p></article>
+          </div>
+          <p class="development-note">개발 중인 프리뷰입니다. NDI·Syphon·SDI, 라이브 입력, 효과 스택은 아직 지원하지 않아요.</p>
+        </section>
+        <section class="install-section" id="install" aria-labelledby="install-title">
+          <h2 id="install-title">설치하기</h2>
+          <ol class="install-steps">
+            <li><strong>DMG 파일을 열어요.</strong><p>다운로드한 xLEDPlayer DMG를 더블 클릭하세요.</p></li>
+            <li><strong>응용 프로그램으로 옮겨요.</strong><p>xLEDPlayer를 Applications 폴더로 드래그하세요.</p></li>
+            <li><strong>xLEDPlayer를 실행해요.</strong><p>새 프로젝트에서 미디어를 가져오고, 재생 레이어와 출력 대상을 선택하세요.</p></li>
+          </ol>
+          <details id="unsigned-help" ><summary>프리뷰 앱의 실행이 차단된다면</summary><p>현재 프리뷰는 Apple 공증 전의 빌드예요. 신뢰할 수 있는 다운로드인지 확인한 뒤 <a href="https://support.apple.com/ko-kr/102445" target="_blank" rel="noopener noreferrer">Apple의 앱 실행 안내</a>를 따라주세요.</p></details>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <span>xLEDPlayer <span class="muted">by safethecode</span></span>
+      <div><a href="https://github.com/safethecode/xledplayer-downloads/issues">문제 제보</a><a data-release-archive href="https://github.com/safethecode/xledplayer-downloads/releases">릴리스</a></div>
+    </footer>
+  </div>
+</body>
+</html>

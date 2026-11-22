@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "product": "xLEDPlayer",
+  "version": "0.1.0-preview.1",
+  "tag": "v0.1.0-preview.1",
+  "build_number": "1",
+  "architecture": "arm64",
+  "minimum_macos": "15.0",
+  "prerelease": true,
+  "notarized": false,
+  "signature": "ad-hoc",
+  "source_revision": "784066d4253988fc526e7bc486ad37497b2e819d",
+  "artifacts": [
+    {
+      "name": "xLEDPlayer-0.1.0-preview.1-macOS-arm64.dmg",
+      "size": 3754230,
+      "sha256": "f1341a11cb1d407f9e5c14f92d045d8a5575c60771f538c9f4dee2f170c44e0b",
+      "url": "https://github.com/safethecode/xledplayer-downloads/releases/download/v0.1.0-preview.1/xLEDPlayer-0.1.0-preview.1-macOS-arm64.dmg"
+    },
+    {
+      "name": "xLEDPlayer-0.1.0-preview.1-macOS-arm64.zip",
+      "size": 3220181,
+      "sha256": "48f2cd17fca61347bcf67158ae6eef62f7c5b1cbcde02b3912b11e039d600cb5",
+      "url": "https://github.com/safethecode/xledplayer-downloads/releases/download/v0.1.0-preview.1/xLEDPlayer-0.1.0-preview.1-macOS-arm64.zip"
+    }
+  ],
+  "repository": "safethecode/xledplayer-downloads",
+  "release_url": "https://github.com/safethecode/xledplayer-downloads/releases/tag/v0.1.0-preview.1",
+  "checksums_url": "https://github.com/safethecode/xledplayer-downloads/releases/download/v0.1.0-preview.1/SHA256SUMS.txt"
+}
